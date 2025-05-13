@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper {
+    width: 320px;
+    height: 446px;
+    margin: 70px auto;
+    background-color: rgb(78, 78, 78);
+    border-radius: 20px;
+    border: .3px solid rgb(58, 57, 57);
+    box-shadow: rgba(95, 95, 102, 0.596) 0px 7px 29px 0px;
+    overflow: hidden;
+}
+
+.display {
+    color: white;
+    font-size: 60px;
+    text-align: end;
+    padding: 35px 20px 5px;
+    font-weight: 300;
+    min-height: 120px;
+}
+
+.calc-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    margin: 1px;
+    width: calc((100% - 8px) / 4);
+    font-size: 25px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.grey-btn {
+    background-color: rgba(128, 128, 128, 0.521);
+    border: 1px solid rgba(128, 128, 128, 0.521);
+}
+
+.grey-btn:hover {
+    color: orange;
+}
+
+.grey-btn:active {
+    background-color: rgb(78, 78, 78);
+}
+
+.light-grey-btn {
+    background-color: rgba(197, 194, 194, 0.521);
+    border: 1px solid rgba(128, 128, 128, 0.521);
+}
+
+.light-grey-btn:hover {
+    background-color: rgba(238, 235, 235, 0.521);
+}
+
+.orange-btn {
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.orange-btn:hover {
+    background-color: rgb(250, 177, 41);
+    color: rgb(78, 78, 78);
+}
+
+.orange-btn:active {
+   background-color: rgba(255, 166, 0, 0.404); 
+}
+
+.zero-btn {
+    padding: 12px 77.5px;  
+}
+
+.dots {
+    position: relative;
+    display: flex;
+    left: 10px;
+    top: 5px;
+    height: 20px;
+}
+
+.dot {
+    width: 5px;
+    margin: 4px;
+    border-radius: 50%;
+    border: none;
+}
+
+.dot-red {
+    background-color: red;
+}
+
+.dot-yellow {
+    background-color: rgb(238, 207, 33);
+}
+
+.dot-green {
+    background-color: rgb(32, 168, 32);
+}
+
+.theme-switcher {
+    width: 30px;
+    margin-left: 150px;
+}
+
+.theme-switcher button {
+    font-size: 22px;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.light {
+    background-color: rgb(253, 241, 227);
+    color: black;
+}
